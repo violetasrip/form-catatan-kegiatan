@@ -1,0 +1,113 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(hihi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+#catat{
+    width: 320px;
+    height: 340px;
+    margin-left: -30px;
+    margin-top: -200px;
+}
+
+#tulis{
+    margin-left: 80px;
+    margin-top: -60px;
+}
+
+#kolom{
+    background:rgba(121, 131, 108, 0.856);
+    width: 350px;
+    height: 400px;
+    margin: 50px ;
+    color: white;
+    border-radius: 25px;
+    margin-left: 500px;
+    margin-top: 150px;
+    border: rgba(83, 87, 83, 0.521) solid 0.4px;
+    box-shadow: 0 0 200px 50px rgba(128, 138, 111, 0.411);
+}
+
+#tanggal{
+    width: 300px;
+    height: 30px;
+    margin-left: 25px;
+    border-radius: 10px;  
+    background-color: #bbc99b;
+    border: 2px solid #bbc99b; 
+    margin-top: 20px;
+}
+
+#kegiatan{
+    width: 300px;
+    height: 30px;
+    margin-left: 25px;
+    border-radius: 10px;  
+    background-color: #bbc99b;
+    border: 2px solid#bbc99b;
+}
+
+#tambah{
+    width: 307px;
+    height: 34px;
+    margin-left: 25px;
+    border-radius: 10px;  
+    background-color: #bbc99b;
+    border: 2px solid#bbc99b;
+    color: white;
+}
+
+#tambah:hover{
+    color: rgb(48, 59, 42);
+}
+
+.fokus:focus{
+    border-color: rgb(227, 255, 227);
+    border-radius: 10px;
+    outline-style: none;
+}
+
+
+::placeholder{
+    color: white;
+}
+
+.nama input{
+    color: white;
+}
+
+
+h1{
+    color: rgb(38, 51, 39);
+    text-align: center;
+    margin-top: 80px;
+}
+
+table{
+    margin-left: -30px;
+}
+
+th{
+    border: 1px solid #3f4633;
+    color: white;
+    background-color: #778557;
+}
+
+tr td{
+    border: 1px solid #828d69;
+    color: white;
+    background-color: #bbc99b;
+}
+
+.tengah{
+    align: center;
+}

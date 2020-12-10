@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form catatan</title>
+    <link rel="stylesheet" href="PERWEB.css">
+    <script src="tabel.js"></script>
+    </style>
+</head>
+<body onload="selamatDatang()">
+    <div id="kolom">
+        <img id="catat" src="catat2.png" >
+        <h3 id="tulis">Buat catatan Kegiatanmu</h3>
+        <form name="formMasuk" action="">
+            <label id="kotak"></label>
+            <input type="text" class="fokus" id="tanggal" placeholder="  tanggal"><br><br>
+
+            <label id="kotak"></label>
+            <input type="email" class="fokus" id="kegiatan" placeholder="  kegiatanmu"><br><br>
+
+            <button onclick="inputform()" class="fokus" id="tambah" type="button">Tambahkan</button>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            
+        </form>
+        <br><br>
+        <br><br>
+
+        <h1>DAFTAR CATATAN KEGIATAN</h1>
+        <table class="tabel" width="400px" cellspacing="0" cellpadding="4px" id="input">
+            
+            <thead>
+                <tr>
+                    <th>TANGGAL</th>
+                    <th>KEGIATAN</th>
+                
+                </tr>
+            </thead>
+
+        </table> 
+        <br><br>
+        <br><br>
+        <br><br>  
+    </div>
+</body>
+</html>
